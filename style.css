@@ -251,7 +251,6 @@ p {
     text-transform: uppercase;
     animation: glow 5s ease-in-out infinite;
     color: #292929;
-    /* transition: glow 5s ease-in-out infinite; */
 
 }
 
@@ -274,10 +273,6 @@ p {
 .text-container>span:nth-child(1) {
     animation-delay: 2s;
 }
-
-/* .text-container>span:nth-child(1) {
-    transition-delay: 4.5s;
-} */
 
 .text-container>span:nth-child(2) {
     animation-delay: 2.25s;
