@@ -1,5 +1,5 @@
 * {
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: #292929;
@@ -7,7 +7,7 @@
 }
 
 .audio {
-    /* margin: 0 auto; */
+    margin: 0 auto;
     text-align: center;
     top: 50%;
     padding-top: 35%;
@@ -55,7 +55,7 @@ h2 {
 
 }
 
-.back-text2 {
+.text-container {
     width: max-content;
     position: absolute;
     top: 38%;
@@ -86,7 +86,7 @@ h2 {
     transition: transform 1s, opacity 0.5s, -webkit-text-stroke-color 0.1s;
 }
 
-.back-text2 span {
+/* .text-container span {
     display: inline-block;
     font-size: 100px;
     font-weight: 700;
@@ -95,7 +95,7 @@ h2 {
     transform: translateY(100px);
     opacity: 0;
     transition: transform 1s, opacity 0.5s, -webkit-text-stroke-color 0.1s;
-}
+} */
 
 .back-text span.active {
     transform: translateY(0px);
@@ -107,10 +107,10 @@ h2 {
     opacity: 1;
 }
 
-.back-text2 span.active {
+/* .back-text2 span.active {
     transform: translateY(0px);
     opacity: 1;
-}
+} */
 
 .back-text span:nth-child(1) {
     transition-delay: 0.1s;
@@ -168,45 +168,7 @@ h2 {
     transition-delay: 1.4s;
 }
 
-.back-text2 span:nth-child(1) {
-    transition-delay: 1.5s;
-}
 
-.back-text2 span:nth-child(2) {
-    transition-delay: 1.6s;
-}
-
-.back-text2 span:nth-child(3) {
-    transition-delay: 1.7s;
-}
-
-.back-text2 span:nth-child(4) {
-    transition-delay: 1.8s;
-}
-
-.back-text2 span:nth-child(5) {
-    transition-delay: 1.9s;
-}
-
-.back-text2 span:nth-child(6) {
-    transition-delay: 2s;
-}
-
-.back-text2 span:nth-child(7) {
-    transition-delay: 2.1s;
-}
-
-.back-text2 span:nth-child(8) {
-    transition-delay: 2.2s;
-}
-
-.back-text2 span:nth-child(9) {
-    transition-delay: 2.3s;
-}
-
-.back-text2 span:nth-child(10) {
-    transition-delay: 2.4s;
-}
 
 /* .back-text:hover span{
     -webkit-text-stroke-color: #fff;
@@ -276,4 +238,62 @@ p {
 .hover-animation img.img-front:hover {
     opacity: 0;
     cursor: pointer;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+
+
+.text-container > span {
+    font-size: 100px;
+  text-transform: uppercase;
+  animation: glow 4s ease-in-out infinite;
+  background-color: #292929;
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: #FFF;
+    text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+  }
+  
+  10%, 90% {
+    color: #292929;
+    text-shadow: none;
+  }
+}
+.text-container > span:nth-child(1) {
+	animation-delay: 2s;
+}
+.text-container > span:nth-child(2) {
+	animation-delay: 2.25s;
+}
+
+.text-container > span:nth-child(3) {
+	animation-delay: 2.5s;
+}
+
+.text-container > span:nth-child(4) {
+	animation-delay: 2.75s;
+}
+
+.text-container > span:nth-child(5) {
+	animation-delay: 3s;
+}
+
+.text-container > span:nth-child(6) {
+	animation-delay: 3.25s;
+}
+
+.text-container > span:nth-child(7) {
+	animation-delay: 3.5s;
+}
+.text-container > span:nth-child(8) {
+	animation-delay: 3.75s;
+}
+.text-container > span:nth-child(9) {
+	animation-delay: 4s;
+}
+.text-container > span:nth-child(10) {
+	animation-delay: 4.25s;
 }
