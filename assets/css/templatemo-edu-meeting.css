@@ -786,7 +786,11 @@ services
   border-radius: 20px;
   text-align: center;
   color: #fff;
-  padding: 40px;
+  padding: 3px;
+}
+
+.services img{
+  border-radius: 20px;
 }
 
 .services .item .icon {
