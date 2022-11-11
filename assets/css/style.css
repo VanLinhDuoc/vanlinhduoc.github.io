@@ -1,0 +1,59 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+figure {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+}
+
+
+
+
+
+.hover-animation {
+    position: relative;
+    height: 500px;
+    width: 350px;
+    margin: 10% auto 0;
+    color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background-clip: padding-box;
+}
+
+.hover-animation img {
+    border: 5px outset #d80e8bc7;
+    border-radius: 12px;
+    position: absolute;
+    left: 0;
+    width: 350px;
+    height: 500px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.hover-animation:hover {
+    transform: translate3d(8px, -5px, -5px);
+    box-shadow: 0 4px 30px rgb(9, 227, 235);
+}
+
+.hover-animation img.img-front:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+@media screen and (max-width: 1919px) {
+    figure{
+        width:100%
+    }
+
+}
