@@ -8,7 +8,7 @@ html{
 
 
 figure {
-    width: 33.33%;
+    width: 25%;
     float: left;
     margin: 0;
 }
@@ -19,8 +19,8 @@ figure {
 
 .hover-animation {
     position: relative;
-    height: 500px;
-    width: 350px;
+    height: 450px;
+    width: 300px;
     margin: 10% auto 0;
     color: #fff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
@@ -33,8 +33,8 @@ figure {
     border-radius: 12px;
     position: absolute;
     left: 0;
-    width: 350px;
-    height: 500px;
+    width: 300px;
+    height: 450px;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -ms-transition: opacity 1s ease-in-out;
@@ -51,9 +51,42 @@ figure {
     opacity: 0;
     cursor: pointer;
 }
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 1920px) {
+    figure{
+        width:25%
+    }
+    .scroll-to-section{
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1399px) {
+    figure{
+        width:33.33%
+    }
+    .scroll-to-section{
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    figure{
+        width:50%
+    }
+    .scroll-to-section{
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
     figure{
         width:100%
+    }
+    .scroll-to-section{
+        padding-bottom: 50px;
     }
 
 }
