@@ -113,6 +113,7 @@ p {
   color: #2a2a2a;
 }
 
+
 img {
   width: 100%;
   overflow: hidden;
@@ -215,7 +216,7 @@ header
 .sub-header .left-content p {
   color: #fff;
   padding: 8px 0px;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .sub-header .right-icons {
@@ -714,7 +715,7 @@ banner
 
 .main-banner .caption {
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
 }
 
