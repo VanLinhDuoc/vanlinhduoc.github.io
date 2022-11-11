@@ -370,7 +370,7 @@ body {
     
 }
 
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 1900px) {
     .player{
         display: none;
     }
