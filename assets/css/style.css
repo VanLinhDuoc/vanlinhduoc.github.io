@@ -122,3 +122,11 @@ figure {
         padding-bottom: 50px;
     }
 }
+
+
+@media screen and (max-width: 347px){
+    .scroll-to-section{
+        display: none;
+    }
+    
+}
