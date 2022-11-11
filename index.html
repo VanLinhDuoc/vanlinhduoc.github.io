@@ -47,7 +47,7 @@
               <h2>CHÀO MỪNG ĐẾN VỚI KỶ NGUYÊN VÔ TẬN</h2>
               <p>Bộ sưu tập Xuân - Hạ - Thu - Đông, trên rừng dưới biển của tụi mình. Chần chờ gì nữa mà không khám phá ngay nào.</p>
               <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#bst">LET'S GO !!!</a></div>
+                  <div class="scroll-to-section"><a id="btn-bst">LET'S GO !!!</a></div>
               </div>
           </div>
               </div>
@@ -59,7 +59,7 @@
     <ul>
        <li class="cover"><img src="https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-6/271587267_4144518252314942_1848843734443380083_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=P6NKkJ_3jQEAX-kSIbz&_nc_ht=scontent.fhan3-1.fna&oh=00_AfAUAVU_OAp3z5bprZCLBj5Q-KNDmZFGPVcgVokAp3P4yA&oe=6372AEE1"/></li>
        <li class="info">
-          <h1>   Nhạc Audition</h1>
+          <h1>Nhạc Audition</h1>
           <!-- <h4>Tổng hợp</h4> -->
           <h2>Bất hủ với thời gian</h2>
  
@@ -535,10 +535,17 @@
           });
         };
 
-        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
-          e.preventDefault();
-          showSection($(this).attr('href'), true);
-        });
+        // $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+        //   e.preventDefault();
+        //   showSection($(this).attr('href'), true);
+        // });
+
+        $('#btn-bst').on('click', function () {
+          // console.log("click")
+          // $('#bst').scrollIntoView()
+          const element = document.getElementById("bst");
+          element.scrollIntoView()
+        })
 
         $(window).scroll(function () {
           checkSection();
