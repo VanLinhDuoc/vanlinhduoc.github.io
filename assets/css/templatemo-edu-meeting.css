@@ -779,19 +779,10 @@ services
   width: 100%;
 }
 
-.services .item {
-  background-image: url(../images/service-item-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 20px;
-  text-align: center;
-  color: #fff;
-  padding: 3px;
-}
 
 .services img{
   border-radius: 20px;
+  border: 3px solid rgb(219, 35, 66);
 }
 
 .services .item .icon {
@@ -799,17 +790,7 @@ services
   margin: 0 auto;
 }
 
-.services .item h4 {
-  margin-top: 25px;
-  margin-bottom: 15px;
-  font-size: 18px;
-  font-weight: 600;
-}
 
-.services .item p {
-  color: #fff;
-  font-size: 13px;
-}
 
 .services .owl-nav {
   display: inline-block !important;
