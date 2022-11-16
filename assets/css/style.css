@@ -309,3 +309,21 @@ body {
 .item-content:hover .imghover{
   opacity: 0.3;
 }
+
+.item-content {  
+  -webkit-animation-name: zoom1;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom1;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom1 {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom1 {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
