@@ -272,9 +272,8 @@ body {
   width: 3vw;
   height: auto;
   position: fixed;
-  /* border: 5px solid rgba(255, 255, 255, 0.336); */
   text-align: center;
-  /* border-radius: 10px; */
+  cursor: pointer;
 }
 
 .zoom{
@@ -304,6 +303,7 @@ body {
   left: 0;
   z-index: 200;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .item-content:hover .imghover{

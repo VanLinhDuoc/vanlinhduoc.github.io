@@ -170,6 +170,7 @@ body {
 
 .main-button-red a:hover {
   opacity: 0.9;
+  cursor: pointer;
 }
 
 .main-button-yellow a {
