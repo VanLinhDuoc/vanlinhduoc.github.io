@@ -76,6 +76,11 @@
                 <img src="img\cpl\cpl5.jpg" alt="">
           </div>
         </div>
+        <div class="zoom">
+          <span class="close">&times;</span>
+          <div></div>
+          <img src="" alt="">
+        </div>
       </div>
     </div>
 </section>
@@ -497,7 +502,25 @@
           checkSection();
         });
     </script>
-
+    <script>
+      var clickimg = document.querySelectorAll(".owl-carousel>img");
+      clickimg.onclick = function(){
+        var zoom = document.querySelectorAll("zoom")[0];
+        zoom.style.display = block;
+      
+        zoom.getElementsByTagName("img")[0].src = this.src;
+        var span = document.getElementsByClassName(".close")[0];
+        span.onclick = function(){
+          zoom.display.style = none;
+        }
+        zoom.getElementsByTagName("span")[0].onclick = function(){
+          zoom.style.display = none;
+        }
+        zoom.getElementsByTagName("div")[0].onclick = function(){
+          zoom.style.display = none;
+        }
+      }
+    </script>
 </body>
 
 </body>
