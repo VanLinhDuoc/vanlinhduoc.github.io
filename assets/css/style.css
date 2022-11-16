@@ -264,17 +264,17 @@ body {
 .close {
   color: rgb(255, 255, 255);
   float: right;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   z-index: 150;
-  top: 8%;
-  left: 83%;
+  top: 7%;
+  left: 82%;
   width: 3vw;
   height: auto;
   position: fixed;
-  border: 5px solid rgba(255, 255, 255, 0.336);
+  /* border: 5px solid rgba(255, 255, 255, 0.336); */
   text-align: center;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .zoom{
