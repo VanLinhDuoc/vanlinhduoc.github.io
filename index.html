@@ -13,7 +13,7 @@
   <link rel="icon" href="img\ic.png">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css"> -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
   <link rel="stylesheet" href="assets/css/owl.css">
@@ -22,6 +22,9 @@
 </head>
 
 <body>
+  <div id="backtop">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </div>
 
   <div class="sub-header">
     <div class="container">
@@ -531,6 +534,22 @@
     $("#button-close").on("click", function () {
       setDefaultZoom()
     })
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop()) {
+          $('backtop').fadeIn();
+        } else {
+          $('backtop').fadeOut();
+        }
+      });
+      $("#backtop").click(function () {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 300);
+      })
+    });
   </script>
 </body>
 
