@@ -293,7 +293,7 @@ body {
 }
 
 .imghover{
-  background-color: #000;
+  background-color: #fff;
   opacity: 0;
   position: absolute;
   height: 100%;
@@ -307,7 +307,7 @@ body {
 }
 
 .item-content:hover .imghover{
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .close:hover {
