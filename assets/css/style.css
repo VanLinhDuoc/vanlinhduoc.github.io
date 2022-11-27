@@ -1,10 +1,12 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
 .wrapper {
     width: 100%;
     margin: 0 auto;
 }
-html{
-    font-family: 'Courier New', Courier, monospace;
-}
+
 
 
 figure {
@@ -71,7 +73,6 @@ body {
   }
   
   h1 {
-    font-family: "Open Sans", sans-serif;
     font-size: 13pt;
     font-weight: 600;
     text-transform: uppercase;
@@ -80,14 +81,12 @@ body {
   }
   
   h4 {
-    font-family: "Open Sans", sans-serif;
     font-size: 8pt;
     font-weight: 400;
     cursor: default;
   }
   
   h2 {
-    font-family: "Open Sans", sans-serif;
     font-size: 13pt;
     font-weight: 300;
     color: white;
@@ -376,3 +375,4 @@ body {
     left: 89%;
   }
 }
+
